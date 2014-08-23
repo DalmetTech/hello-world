@@ -38,6 +38,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+//Action - SetCover 
 - (IBAction)setCover:(id)sender{
     CoverNewReleaseViewController *coverNewReleaseView = [[CoverNewReleaseViewController alloc]initWithNibName:@"CoverNewReleaseViewController" bundle:nil];
     [self presentViewController:coverNewReleaseView animated:YES completion:nil];
